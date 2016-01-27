@@ -3,9 +3,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-// import Routes from './routes'
+import Routes from './routes'
 
-render(
-  <h1>hello!</h1>,
-  document.getElementById('app')
-);
+import '../static/css/base.css'
+
+render(<Routes />, document.getElementById('todo'));
